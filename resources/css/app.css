@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 
+.color_buttons{
+    background-color: #337def;
+    color: aliceblue;
+} */
+
+
+.color_buttons {
+    background-color: #337def;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.color_buttons:hover {
+    background-color: #285fb8; /* Warna lebih gelap saat hover */
+}
+
+
+
+.color_buttons_new {
+    background-color: #2ed3e8;
+    color: aliceblue;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.color_buttons_new:hover {
+    background-color: #77a6ab; /* Warna lebih gelap saat hover */
+}
